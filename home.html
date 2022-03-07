@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anam Mahmud | Portfolio</title>
-  <!-- favicon linkup -->
-  <link rel="shortcut icon" href="img/icon.jpg">
-  <!-- css linkup -->
-  <link rel="stylesheet" href="style.css">
-  <!-- bootstrap linkup -->
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <!-- bootstrap icons linkup -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  <!-- google fonts link -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-  <!-- fontawesome linkup -->
-  <script src="https://kit.fontawesome.com/d7a9ddd2f0.js" crossorigin="anonymous"></script>
-  <!-- jquery linkup -->
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-</head>
+<!-- html code -->
 <body>
   <!-- nav section -->
   <section class="nav-section" id="nav">
@@ -178,37 +156,37 @@
             <div class="skill-item">
               <h4>Html</h4>
               <div class="progress" style="height: 20px;">
-                <div class="progress-bar-1 progress-bar-striped" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" id="number1">  </div>
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
               </div>
             </div>
             <div class="skill-item mt-3">
               <h4>Css</h4>
               <div class="progress" style="height: 20px;">
-                <div class="progress-bar-2 progress-bar-striped" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" id="number2">  </div>
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
               </div>
             </div>
             <div class="skill-item mt-3">
               <h4>JavaScript</h4>
               <div class="progress" style="height: 20px;">
-                <div class="progress-bar-3 progress-bar-striped" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" id="number3">  </div>
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
               </div>
             </div>
             <div class="skill-item mt-3">
               <h4>Bootstrap</h4>
               <div class="progress" style="height: 20px;">
-                <div class="progress-bar-4 progress-bar-striped" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" id="number4">  </div>
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
               </div>
             </div>
             <div class="skill-item mt-3">
               <h4>React</h4>
               <div class="progress" style="height: 20px;">
-                <div class="progress-bar-5 progress-bar-striped" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" id="number5">  </div>
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
               </div>
             </div>
             <div class="skill-item mt-3">
               <h4>Wordpress</h4>
               <div class="progress" style="height: 20px;">
-                <div class="progress-bar-6 progress-bar-striped" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" id="number6">  </div>
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
               </div>
             </div>
           </div>
@@ -735,4 +713,262 @@
   <!-- js linkup -->
   <script src="myScript.js"></script>
 </body>
-</html>
+
+
+
+<!-- css code -->
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* nav section */
+#nav nav {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+#nav .navbar-brand::after {
+  content: '';
+  height: 7px;
+  width: 7px;
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+  display: inline-block;
+  margin-left: 10px;
+}
+#nav .navbar ul li a {
+  color: #fff;
+}
+#nav .navbar ul li a:hover {
+  color: rgba(29, 224, 153);
+	transition: .4s;
+}
+#nav .get-start a {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+  transition: transform .5s;
+}
+#nav .get-start a:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  transform: scale(1.1);
+  color: rgba(29, 224, 153);
+}
+
+/* header backgroung-img section */
+#header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url(img/bg-hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+#header .header-text {
+  position: absolute;
+  top: 40%;
+  pointer-events:none;
+}
+#header .header-text p {
+  font-size: 30px;
+}
+#header .header-text h1 {
+  font-size: 60px;
+}
+#header .header-text h3 {
+  font-size: 40px;
+}
+#header .header-text span {
+  color: rgba(29, 224, 153);
+}
+#header .header-btn a {
+  color: #1de099;
+  border: 1px solid #1de099;
+}
+#header .header-img {
+  position: absolute;
+  top: 22%;
+}
+
+ @media only screen and (max-width: 600px) {
+  #header {
+    height: 155vh;
+  }
+  #header .header-text {
+    top: 100%;
+  }
+  #header .header-text h1 {
+    font-size: 35px;
+  }
+  #header .header-text h3 {
+    font-size: 30px;
+  }
+  #header .header-img {
+    top: 16%;
+  }
+ }
+
+
+/* about section */
+#about {
+  background-color: rgb(3, 10, 23, 0.9);
+}
+#about .about-head h1 {
+  pointer-events:none;
+}
+#about .about-head hr {
+  width: 100px;
+  height: 3px;
+  border-radius: 3px;
+  margin: 0 auto;
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+#about .about-text p {
+  text-align: justify;
+}
+
+
+
+/* work_experience */
+#work_experience {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+#work_experience .work_experience-head h1 {
+  pointer-events:none;
+}
+#work_experience .work_experience-head hr {
+  width: 100px;
+  height: 3px;
+  border-radius: 3px;
+  margin: 0 auto;
+  background-color: rgb(3, 10, 23);
+}
+#work_experience .download_cv a {
+  color: rgb(3, 10, 23);
+  border: 1px solid rgb(3, 10, 23);
+}
+
+
+
+/* services section */
+#services {
+  background-color: rgb(3, 10, 23, 0.9);
+}
+#services .services-head h1 {
+  color: #fff;
+  pointer-events:none;
+}
+#services .services-head hr {
+  width: 100px;
+  height: 3px;
+  border-radius: 3px;
+  margin: 0 auto;
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+
+
+
+/* hire me section */
+#hire-me {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+#hire-me .hire-me-text h1 {
+  pointer-events:none;
+}
+
+
+
+
+/* portfolio section */
+#portfolio {
+  background-color: rgb(3, 10, 23, 0.9);
+}
+#portfolio .portfolio-head h1 {
+  color: #fff;
+  pointer-events:none;
+}
+#portfolio .portfolio-head hr {
+  width: 100px;
+  height: 3px;
+  border-radius: 3px;
+  margin: 0 auto;
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+#portfolio .card {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+
+
+
+/* testimonials section */
+#testimonials {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                    url(img/testi-bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;    
+  height: 80vh;              
+}
+#testimonials .testimonials-img img {
+  width: 100px;
+}
+@media only screen and (max-width: 600px) {
+  #testimonials {
+    height: 100vh;              
+  }
+ }
+
+
+
+ /* contact section */
+ #contact {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+#contact .contact-head h1 {
+  pointer-events:none;
+}
+#contact .contact-head hr {
+  width: 100px;
+  height: 3px;
+  border-radius: 3px;
+  margin: 0 auto;
+  background-color: rgb(3, 10, 23, 0.9);
+}
+
+
+
+/* footer section */
+#footer {
+  background-color: rgb(3, 10, 23, 0.9);
+  border-radius: 100px 0 100px 0;
+}
+
+
+
+/* copyright section */
+#copyright {
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+
+
+
+
+<!-- js code -->
+let typed = new Typed(".auto-input",{
+  strings: ["Web Designer", "Web Developer"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  loop: true
+})
+
+
+
+
+
+
+
+

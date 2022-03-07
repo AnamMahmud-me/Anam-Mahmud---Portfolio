@@ -132,6 +132,94 @@ body {
   border: 1px solid rgb(3, 10, 23);
 }
 
+/* progress bar start */
+#work_experience .progress-bar-1 {
+  background-color: #E44D26;
+  text-align: center;
+  font-weight: 600;
+  animation: anim1 5s forwards;
+}
+@keyframes anim1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+#work_experience .progress-bar-2 {
+  background-color: #3595CF;
+  text-align: center;
+  font-weight: 600;
+  animation: anim2 5s forwards;
+}
+@keyframes anim2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+#work_experience .progress-bar-3 {
+  background-color: #e6c90e;
+  text-align: center;
+  font-weight: 600;
+  animation: anim3 5s forwards;
+}
+@keyframes anim3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+#work_experience .progress-bar-4 {
+  background-color: #754FAD;
+  text-align: center;
+  font-weight: 600;
+  animation: anim4 5s forwards;
+}
+@keyframes anim4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+#work_experience .progress-bar-5 {
+  background-color: #5ED3F3;
+  text-align: center;
+  font-weight: 600;
+  animation: anim5 5s forwards;
+}
+@keyframes anim5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+#work_experience .progress-bar-6 {
+  background-color: #0083B8;
+  text-align: center;
+  font-weight: 600;
+  animation: anim6 5s forwards;
+}
+@keyframes anim6 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+/* progress bar end */
+
+
 
 
 /* services section */
