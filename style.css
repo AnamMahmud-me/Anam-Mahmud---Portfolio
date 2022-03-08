@@ -38,20 +38,13 @@ body {
   color: rgba(29, 224, 153);
 }
 
-/* header backgroung-img section */
+/* header section */
 #header {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-              url(img/bg-hero.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
+  background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+  position: relative;
 }
 #header .header-text {
-  position: absolute;
-  top: 40%;
-  pointer-events:none;
+  pointer-events: none;
 }
 #header .header-text p {
   font-size: 30px;
@@ -63,32 +56,45 @@ body {
   font-size: 40px;
 }
 #header .header-text span {
-  color: rgba(29, 224, 153);
+  color: #fff;
 }
 #header .header-btn a {
-  color: #1de099;
-  border: 1px solid #1de099;
+  color: #fff;
+  border: 1px solid #fff;
 }
 #header .header-img {
+  
+}
+#header .beauty-code {
   position: absolute;
-  top: 22%;
+  top: 10%;
+  left: 15%;
+}
+#header .beauty-code i {
+  font-size: 100px;
+  color: #fff;
+  opacity: 0.2;
+}
+#header .beauty-star {
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+}
+#header .beauty-star i {
+  font-size: 100px;
+  color: #fff;
+  opacity: 0.2;
 }
 
  @media only screen and (max-width: 600px) {
   #header {
-    height: 155vh;
-  }
-  #header .header-text {
-    top: 100%;
+    
   }
   #header .header-text h1 {
     font-size: 35px;
   }
   #header .header-text h3 {
     font-size: 30px;
-  }
-  #header .header-img {
-    top: 16%;
   }
  }
 
