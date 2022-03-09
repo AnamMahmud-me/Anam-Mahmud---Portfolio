@@ -98,6 +98,15 @@ body {
   }
  }
 
+ @media only screen and (max-width: 1200px) {
+  #header .header-text h1 {
+    font-size: 38px;
+  }
+  #header .header-text h3 {
+    font-size: 30px;
+  }
+ }
+
 
 /* about section */
 #about {
@@ -242,6 +251,9 @@ body {
   border-radius: 3px;
   margin: 0 auto;
   background: linear-gradient(45deg, rgba(29, 224, 153), rgba(29, 200, 205));
+}
+#services .services-item {
+  height: 270px;
 }
 
 
