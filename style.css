@@ -62,13 +62,10 @@ body {
   color: #fff;
   border: 1px solid #fff;
 }
-#header .header-img {
-  
-}
 #header .beauty-code {
   position: absolute;
   top: 10%;
-  left: 15%;
+  left: 10%;
 }
 #header .beauty-code i {
   font-size: 100px;
@@ -78,7 +75,7 @@ body {
 #header .beauty-star {
   position: absolute;
   bottom: 10%;
-  right: 15%;
+  right: 10%;
 }
 #header .beauty-star i {
   font-size: 100px;
@@ -87,9 +84,6 @@ body {
 }
 
  @media only screen and (max-width: 600px) {
-  #header {
-    
-  }
   #header .header-text h1 {
     font-size: 35px;
   }
@@ -324,6 +318,9 @@ body {
   border-radius: 3px;
   margin: 0 auto;
   background-color: rgb(3, 10, 23, 0.9);
+}
+#contact .contact-img img {
+  width: 200px;
 }
 
 
