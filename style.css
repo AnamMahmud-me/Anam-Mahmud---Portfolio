@@ -12,6 +12,9 @@ body {
 #nav nav {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
 }
+#nav .logo {
+  font-weight: 700;
+}
 #nav .navbar-brand::after {
   content: '';
   height: 7px;
@@ -292,11 +295,16 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;    
-  height: 80vh;              
+  height: 80vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;            
 }
 #testimonials .testimonials-img img {
   width: 100px;
 }
+
+
 @media only screen and (max-width: 600px) {
   #testimonials {
     height: 100vh;              
@@ -321,6 +329,9 @@ body {
 }
 #contact .contact-img img {
   width: 200px;
+}
+#contact map iframe {
+  filter: invert(100%);
 }
 
 
